@@ -1,4 +1,4 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonCard, IonCardContent, IonCardHeader, IonCardTitle, IonContent, IonHeader, IonInput, IonItem, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import ExploreContainer from '../components/ExploreContainer';
 import './Home.css';
 
@@ -6,8 +6,8 @@ const Home: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar>
-          <IonTitle>Blank</IonTitle>
+        <IonToolbar color="dark">
+          <IonTitle>HMIC Design Screen</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
@@ -16,7 +16,20 @@ const Home: React.FC = () => {
             <IonTitle size="large">Blank</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer />
+
+        <IonCard className='container'>
+          <IonCardHeader>
+            <IonCardTitle>
+
+            </IonCardTitle>
+          </IonCardHeader>
+
+          <IonCardContent>
+            <IonItem>
+              <IonInput type='text' className='dialog'></IonInput>
+            </IonItem>
+          </IonCardContent>
+        </IonCard>
       </IonContent>
     </IonPage>
   );

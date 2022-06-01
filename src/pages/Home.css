@@ -1,0 +1,37 @@
+/* Set variables for all modes */
+:root {
+  /* Set the background of the entire app */
+  --ion-background-color: #212432;
+
+  /* Set the font family of the entire app */
+  --ion-font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+    "Roboto", sans-serif;
+}
+.container {
+  position: absolute;
+  width: 500px;
+  height: 288px;
+  margin-left: 500px;
+  margin-top: 240px;
+
+  /* 2BG 292A34 */
+  filter: drop-shadow(0px 0px 15px rgba(255, 255, 255, 0.1));
+  background: #292a34;
+  border-radius: 10px;
+}
+
+.dialog {
+  position: absolute;
+  /* width: 5px; */
+  height: 35px;
+  left: 40px;
+  top: 55px;
+
+  /* Dark 181A23 */
+
+  background: #181a23;
+  /* TEXT AND ICON 2 777982 */
+
+  border: 0.758333px solid #777982;
+  border-radius: 7.58333px;
+}
